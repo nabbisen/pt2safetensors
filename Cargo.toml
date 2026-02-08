@@ -1,0 +1,22 @@
+[package]
+name = "pt2safetensors"
+version = "0.1.0"
+edition = "2024"
+
+description = "PyTorch model to safeTensors file format converter."
+authors = ["nabbisen <nabbisen@scqr.net>"]
+license = "Apache-2.0"
+
+categories = ["development-tools"]
+keywords = ["ai", "safetensors", "pytorch", "file", "utility"]
+repository = "https://github.com/nabbisen/pt2safetensors"
+readme = "README.md"
+rust-version = "1.90.0"
+
+# [features]
+# reqwest = ["reqwest"]
+
+[dependencies]
+anyhow = { version = "1", default-features = false }
+candle-core = "0"
+safetensors = { version = "0", default-features = false }
