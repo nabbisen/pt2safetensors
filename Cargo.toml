@@ -1,6 +1,6 @@
 [package]
 name = "pt2safetensors"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 
 description = "PyTorch model to safeTensors file format converter."
