@@ -1,5 +1,3 @@
-[workspace]
-
 [package]
 name = "pt2safetensors"
 version = "0.1.3"
@@ -13,7 +11,7 @@ categories = ["development-tools"]
 keywords = ["ai", "safetensors", "pytorch", "file", "utility"]
 repository = "https://github.com/nabbisen/pt2safetensors"
 readme = "README.md"
-rust-version = "1.90.0"
+rust-version = "1.94"
 
 # [features]
 # reqwest = ["reqwest"]
