@@ -3,6 +3,7 @@ use safetensors::serialize_to_file;
 
 use std::{collections::HashMap, fs, path::PathBuf};
 
+#[derive(Default)]
 pub struct Pt2Safetensors {
     removes_pt_at_conversion_success: bool,
 }
@@ -37,13 +38,5 @@ impl Pt2Safetensors {
         }
 
         Ok(())
-    }
-}
-
-impl Default for Pt2Safetensors {
-    fn default() -> Self {
-        Self {
-            removes_pt_at_conversion_success: false,
-        }
     }
 }

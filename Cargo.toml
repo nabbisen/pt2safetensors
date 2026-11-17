@@ -1,3 +1,5 @@
+[workspace]
+
 [package]
 name = "pt2safetensors"
 version = "0.1.3"
@@ -18,5 +20,5 @@ rust-version = "1.90.0"
 
 [dependencies]
 anyhow = { version = "1", default-features = false }
-candle-core = "0.10"
-safetensors = { version = "0.7", features = ["std"] }
+candle-core = "0.11"
+safetensors = { version = "0.8", features = ["std"] }
